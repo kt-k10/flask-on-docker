@@ -20,3 +20,6 @@ It's designed to provide a **production-ready** containerized environment for Fl
 
 ## Build
 Running docker-compose up --build rebuilds the Docker images (if there are any changes) and starts all the services defined in the docker-compose.yml file. This command sets up the environment, initializing containers for the application, database, and other services, and makes the app accessible at http://localhost:1039
+
+Upload an image at http://localhost:1039/upload.
+Then, view the image at http://localhost:1039/media/IMAGE_FILE_NAME.
